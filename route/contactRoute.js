@@ -12,7 +12,7 @@ router.post('/contact', (req, res)=>{
         port: 465,
         auth: {
             user: 'hasnasir24@gmail.com',
-            pass: 'hksxfirdfnasfdzl'
+            pass: '' //generate an app password of your email and put here
         }
     })
     let mailOptions = {
